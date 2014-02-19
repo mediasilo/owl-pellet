@@ -2,14 +2,9 @@ $( document ).ready(function () {
 	
 	var sendEvent = function(eventName, body) {
 		$.ajax({
-			url: 'http://localhost:8013/v3/analytics/event?eventType='+eventName,
+			url: _msAnalyticsEndpoint+'?'+eventName,
 			type : 'get',
 			dataType: 'jsonp',
-			beforeSend: function (request)
-		    {
-		        request.setRequestHeader("Authorization", "Basic dXNlcjp1c2Vy");
-		        request.setRequestHeader("MediaSiloHostContext", "cloudcompanion");
-		    },
 			success: function(o){
 				console.log(o);
 			}
@@ -22,5 +17,5 @@ $( document ).ready(function () {
 		}
 	}
 
-	sendEvent("quicklink.pageLoad");
+	sendEvent("pageLoad");
 });
