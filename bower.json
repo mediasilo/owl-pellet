@@ -1,0 +1,21 @@
+{
+  "name": "owl-pellet",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mediasilo/owl-pellet",
+  "authors": [
+    "mdelano <mike@mediasilo.com>"
+  ],
+  "description": "MediaSilo Analytics Snippet",
+  "main": "analytics.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.9.0"
+  }
+}
