@@ -38,6 +38,7 @@ var MediaSiloAnalytics = (function () {
 		data["_ms_host"] = window.location.host; 
 		data["_ms_path"] = window.location.pathname;
 		data["_ms_eventType"] = eventName;
+		data["_ms_AnalyticsTrackingKey"] = _ms_AnalyticsTrackingKey;
 		J50Npi.getJSON(url, data);
 		
 	}
