@@ -13,7 +13,7 @@ MediaSilo Analytics Snippet
         <script type="text/javascript">
             _ms_AnalyticsTrackingKey = "10c3a4e0-99be-11e3-a5e2-0800200c9a66";
         </script>
-        <script type="text/javascript" src="bower_components/owl-pellet/analytics.js"></script>
+        <script type="text/javascript" src="bower_components/owl-pellet/tracking.js"></script>
     </head>
     
 #### Usage
