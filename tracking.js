@@ -1,5 +1,5 @@
-var MediaSilo = MediaSilo || {};
-var MediaSiloAnalytics = (function () {
+var MediaSiloAnalytics = MediaSiloAnalytics || {};
+var MediaSiloAnalytics.Tracking = (function () {
 
 	// Thanks to: https://github.com/robertodecurnex/J50Npi
 	var J50Npi = {  
@@ -50,7 +50,7 @@ var MediaSiloAnalytics = (function () {
 		J50Npi : J50Npi
 	};
 
-}(MediaSiloAnalytics || {}));
+}(MediaSiloAnalytics.Tracking || {}));
 
 // Track event for each time the page is loaded
-MediaSiloAnalytics.track("pageLoad");
+MediaSiloAnalytics.Tracking.track("pageLoad");
