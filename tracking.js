@@ -36,7 +36,7 @@ MediaSiloAnalytics.Tracking = (function () {
 		data["_ms_host"] = window.location.host; 
 		data["_ms_path"] = window.location.pathname + window.location.hash;
 		data["_ms_AnalyticsTrackingKey"] = _ms_AnalyticsTrackingKey;
-        var url = "http://phoenix.mediasilo.com/v3/analytics/"+eventName;
+        var url = "http://p-api-new.mediasilo.com/v3/analytics/"+eventName;
 		J50Npi.getJSON(url, data);
 	};
 
